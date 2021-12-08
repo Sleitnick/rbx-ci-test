@@ -9,14 +9,10 @@
 			},
 			"Packages": {
 				"$path": "Packages"
-			}
-		},
-		"TestService": {
-			"$className": "TestService",
-			"$properties": {
-				"ExecuteWithStudioRun": true
 			},
-			"$path": "test"
+			"Test": {
+				"$path": "test"
+			}
 		}
 	}
 }
