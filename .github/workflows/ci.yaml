@@ -25,7 +25,7 @@ jobs:
 
     - name: Lint
       run: |
-        selene ./modules
+        selene ./src
 
   unit-tests:
     name: Unit Tests
