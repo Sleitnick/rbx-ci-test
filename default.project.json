@@ -1,0 +1,15 @@
+{
+	"name": "rbx-ci-test",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Source": {
+				"$path": "src/ReplicatedStorage"
+			},
+			"Packages": {
+				"$path": "Packages"
+			}
+		}
+	}
+}
