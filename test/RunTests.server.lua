@@ -1,4 +1,5 @@
-local Test = require(game:GetService("ReplicatedStorage").Source.Test)
-Test:DoSomething()
+print("Running unit tests")
 
-print("Hello world")
+local TestEZ = require(game:GetService("ReplicatedStorage").Packages.TestEZ)
+
+TestEZ.TestBootstrap:run({script.Parent.tests})
